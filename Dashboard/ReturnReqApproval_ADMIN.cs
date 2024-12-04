@@ -21,5 +21,10 @@ namespace Dashboard_STAFF
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

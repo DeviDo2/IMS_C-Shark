@@ -46,8 +46,8 @@
             flowLayoutPanel1 = new FlowLayoutPanel();
             textBox5 = new TextBox();
             textBox6 = new TextBox();
-            textBox7 = new TextBox();
             label8 = new Label();
+            textBox7 = new TextBox();
             flowLayoutPanel2.SuspendLayout();
             flowLayoutPanel1.SuspendLayout();
             SuspendLayout();
@@ -91,6 +91,7 @@
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(333, 27);
             textBox1.TabIndex = 2;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // label3
             // 
@@ -240,14 +241,6 @@
             textBox6.Size = new Size(333, 27);
             textBox6.TabIndex = 13;
             // 
-            // textBox7
-            // 
-            textBox7.Location = new Point(419, 217);
-            textBox7.Multiline = true;
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(333, 87);
-            textBox7.TabIndex = 14;
-            // 
             // label8
             // 
             label8.AutoSize = true;
@@ -257,6 +250,14 @@
             label8.Size = new Size(141, 20);
             label8.TabIndex = 15;
             label8.Text = "Reason for Return:";
+            // 
+            // textBox7
+            // 
+            textBox7.Location = new Point(419, 217);
+            textBox7.Multiline = true;
+            textBox7.Name = "textBox7";
+            textBox7.Size = new Size(333, 87);
+            textBox7.TabIndex = 14;
             // 
             // ReturnReqApproval_ADMIN
             // 
